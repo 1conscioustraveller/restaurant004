@@ -1,0 +1,93 @@
+:root {
+    --primary: #e8c547;
+    --secondary: #5d576b;
+    --background: #fffaf3;
+    --text: #333;
+    --accent: #d1495b;
+    --max-width: 1100px;
+}
+
+body {
+    font-family: "Segoe UI", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background);
+    color: var(--text);
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.3)),
+                url('https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=1500&q=80') center/cover no-repeat;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    max-width: var(--max-width);
+    margin: auto;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin-left: 1.5rem;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 5rem 1rem;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.btn {
+    display: inline-block;
+    background: var(--primary);
+    color: var(--secondary);
+    padding: 0.75rem 1.5rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.section {
+    padding: 3rem 1rem;
+    max-width: var(--max-width);
+    margin: auto;
+}
+
+.menu-list {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-list li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ddd;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background: var(--secondary);
+    color: white;
+    font-size: 0.9rem;
+}
