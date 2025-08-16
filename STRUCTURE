@@ -1,13 +1,1 @@
-##STRUCTURE.md
-markdown
-Copiar
-Editar
-# Project Structure
 
-/ (root)
-├── index.html # Main HTML file
-├── styles.css # Main CSS file
-├── README.md # Instructions
-├── STRUCTURE.md # This file
-├── menu.txt # Editable menu items
-├── about.txt # Editable about section
